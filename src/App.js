@@ -8,7 +8,9 @@ import React from "react";
 // import CleanUp from "./tutorial/2-useEffect/setup/2-useEffect-cleanup";
 // import FetchData from "./tutorial/2-useEffect/setup/3-useEffect-fetch-data";
 // import ConditionalRender from "./tutorial/3-conditional-rendering/setup/1-multiple-returns";
-import ShortCircuit from "./tutorial/3-conditional-rendering/setup/2-short-circuit";
+// import ShortCircuit from "./tutorial/3-conditional-rendering/setup/2-short-circuit";
+// import ShowHide from "./tutorial/3-conditional-rendering/setup/3-show-hide";
+import ControlledInputs from "./tutorial/4-forms/setup/1-controlled-inputs";
 
 function App() {
   return (
@@ -22,7 +24,9 @@ function App() {
       {/* <UseEffect /> */}
       {/* <FetchData /> */}
       {/* <ConditionalRender /> */}
-      <ShortCircuit />
+      {/* <ShortCircuit /> */}
+      {/* <ShowHide /> */}
+      <ControlledInputs />
     </div>
   );
 }
