@@ -7,7 +7,8 @@ import React from "react";
 // import UseEffect from "./tutorial/2-useEffect/setup/1-useEffect-basics";
 // import CleanUp from "./tutorial/2-useEffect/setup/2-useEffect-cleanup";
 // import FetchData from "./tutorial/2-useEffect/setup/3-useEffect-fetch-data";
-import ConditionalRender from "./tutorial/3-conditional-rendering/setup/1-multiple-returns";
+// import ConditionalRender from "./tutorial/3-conditional-rendering/setup/1-multiple-returns";
+import ShortCircuit from "./tutorial/3-conditional-rendering/setup/2-short-circuit";
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
       {/* <CounterExample /> */}
       {/* <UseEffect /> */}
       {/* <FetchData /> */}
-      <ConditionalRender />
+      {/* <ConditionalRender /> */}
+      <ShortCircuit />
     </div>
   );
 }
