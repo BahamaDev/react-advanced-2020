@@ -5,7 +5,9 @@ import React from "react";
 // import ObjectExample from "./tutorial/1-useState/setup/4-useState-object";
 // import CounterExample from "./tutorial/1-useState/setup/5-useState-counter";
 // import UseEffect from "./tutorial/2-useEffect/setup/1-useEffect-basics";
-import CleanUp from "./tutorial/2-useEffect/setup/2-useEffect-cleanup";
+// import CleanUp from "./tutorial/2-useEffect/setup/2-useEffect-cleanup";
+// import FetchData from "./tutorial/2-useEffect/setup/3-useEffect-fetch-data";
+import ConditionalRender from "./tutorial/3-conditional-rendering/setup/1-multiple-returns";
 
 function App() {
   return (
@@ -17,7 +19,8 @@ function App() {
       {/* <ObjectExample /> */}
       {/* <CounterExample /> */}
       {/* <UseEffect /> */}
-      <CleanUp />
+      {/* <FetchData /> */}
+      <ConditionalRender />
     </div>
   );
 }
