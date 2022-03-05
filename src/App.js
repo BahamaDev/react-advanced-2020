@@ -10,7 +10,8 @@ import React from "react";
 // import ConditionalRender from "./tutorial/3-conditional-rendering/setup/1-multiple-returns";
 // import ShortCircuit from "./tutorial/3-conditional-rendering/setup/2-short-circuit";
 // import ShowHide from "./tutorial/3-conditional-rendering/setup/3-show-hide";
-import ControlledInputs from "./tutorial/4-forms/setup/1-controlled-inputs";
+// import ControlledInputs from "./tutorial/4-forms/setup/1-controlled-inputs";
+import ControlledInputs from "./tutorial/4-forms/setup/2-multiple-inputs";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       {/* <ConditionalRender /> */}
       {/* <ShortCircuit /> */}
       {/* <ShowHide /> */}
+      {/* <ControlledInputs /> */}
       <ControlledInputs />
     </div>
   );
